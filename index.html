@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SafePilot 2024 </title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom CSS for the '3 Col Portfolio' Template -->
+    <link href="css/3-col-portfolio.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="http://startbootstrap.com">Start Bootstrap</a> -->
+          <a class="navbar-brand" href=".io">SafePilot 2024</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="stat.html">快速开始</a></li>
+            <li><a href="extend.html">数据分析</a></li>
+            <li><a href="https://github.com/safepilot2024/safepilot2024">项目代码库</a></li>
+            <!-- <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li> -->
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-12">
+
+          <h1 class="page-header">SafePilot<small> 违规检测案例 <i class="fas fa-car-crash"></i></small></h1>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-6 portfolio-item">
+          <video id="issue1-1" width="560" height="380" controls muted>
+            <source src="attcker1.mp4" type="video/mp4">
+            </object>
+          </video>
+          <h3><a href="attcker1.mp4">碰撞案例1</a></h3>
+          <script>
+            var vid1_1 = document.getElementById("issue1-1");
+            function getCurTime1_1() { 
+              alert(vid1_1.currentTime);
+            } 
+            function setCurTime1_1(time) {              
+              vid1_1.currentTime=time;
+            } 
+          </script> 
+          <p>这里简单介绍案例</p>
+        </div>
+
+
+        <div class="col-md-6 portfolio-item">
+          <video id="issue1-2" width="560" height="380" controls muted>
+            <source src="attcker2.mp4" type="video/mp4">
+            </object>
+          </video>
+          <h3><a href="attcker2.mp4">案例2.</a></h3>
+          <script>
+            var vid1_2 = document.getElementById("issue1-2");
+            function getCurTime1_2() { 
+              alert(vid1_2.currentTime);
+            } 
+            function setCurTime1_2(time) {              
+              vid1_2.currentTime=time;
+            } 
+          </script> 
+          <p>
+            这里介绍
+          </p>
+        </div>
+
+     
+      </div>
+
+      <hr>
+
+      <div class="row text-center">
+        
+        <div class="col-lg-12">
+          <ul class="pagination">
+            <li><a href="index.html">&laquo;</a></li>
+            <li class="active"><a href="index.html">1</a></li>
+            <li><a href="safety2.html">2</a></li>
+            <li><a href="safety3.html">3</a></li>
+            <li><a href="safety2.html">&raquo;</a></li>
+          </ul>        
+        </div>
+
+      </div>
+
+    </div><!-- /.container -->
+
+<!--     <div class="container">
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-lg-12">
+            <p>Copyright &copy; Company <span id="getCurrentDate"></span></p>
+          </div>
+        </div>
+      </footer>
+      
+    </div> --> <!-- /.container -->
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="text/javascript">
+      var dt = new Date();
+      document.getElementById('getCurrentDate').innerHTML = dt.getFullYear();
+    </script>
+  </body>
+
+</html>
